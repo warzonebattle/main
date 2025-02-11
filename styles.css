@@ -20,7 +20,7 @@ body{
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    max-width: 300px;
   }
   .web-page{
     background-color: #000c2d;
@@ -275,4 +275,12 @@ body{
 .teams-container h1 {
   font-size: 34px;
   margin: 0;
+}
+
+@media (min-width: 600px){
+  .box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
