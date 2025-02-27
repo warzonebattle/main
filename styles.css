@@ -282,7 +282,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 @media (min-width: 600px){
@@ -290,6 +290,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
 }
